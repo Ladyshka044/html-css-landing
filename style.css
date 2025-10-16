@@ -36,7 +36,18 @@ body{font-family:Poppins,Arial,Helvetica,sans-serif;color:#111;background:#f7f7f
 .footer{background:linear-gradient(180deg,#0f172a 0%,#1e293b 100%);color:#fff;margin-top:auto}
 .footer-row{height:90px;display:flex;align-items:center;justify-content:space-between;border-top:1px solid rgba(255,255,255,.15)}
 .footer p{letter-spacing:.4px}
-.social{display:flex;gap:14px}
-.icon{width:36px;height:36px;display:inline-flex;align-items:center;justify-content:center;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.18);border-radius:10px;transition:transform .12s ease,background .25s ease,border-color .25s ease}
-.icon:hover{transform:translateY(-2px);background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.3)}
-.icon svg{width:18px;height:18px;fill:#fff;display:block}
+
+.live-demo {
+  background: #e33b3b;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 22px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.live-demo:hover {
+  background: #c52020;
+  transform: translateY(-2px);
+}
